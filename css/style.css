@@ -971,6 +971,7 @@ section.cd-section {
 			border: 3px solid #C7C7C7;
 			height: 300px;
 			overflow: hidden;
+			vertical-align: middle;
 		}
 
 		.gallery-bottom {
