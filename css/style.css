@@ -950,7 +950,6 @@ section.cd-section {
 
 		.gallery-top {
 			padding: 0;
-			display: inline-block;
 		}
 
 		.gallery-grids figure {
@@ -970,6 +969,8 @@ section.cd-section {
 			display: block;
 			width: 100%;
 			border: 3px solid #C7C7C7;
+			height: 300px;
+			overflow: hidden;
 		}
 
 		.gallery-bottom {
