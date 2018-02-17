@@ -1647,7 +1647,7 @@ a.to-top {
 	}
 	.stats-grid {
 		width: 25%;
-		float: left;
+		float: middle;
 		padding: 0;
 	}
 	.gallery-top {
@@ -1879,11 +1879,17 @@ a.to-top {
 	.stats-img img {
 		width: 60px;
 	}
+	.gallery-grids figure img {
+			height: 100%;
+	}
 	figure.effect-bubba figcaption::before, figure.effect-bubba figcaption::after {
 		top: 20px;
 		right: 20px;
 		bottom: 20px;
 		left: 20px;
+	}
+	.gallery-top {
+		width: 100%;
 	}
 	.gallery-top figure.effect-bubba h4 {
 		padding-top: 2%;
@@ -1919,9 +1925,6 @@ a.to-top {
 	.portfolio h4 {
 		margin: 15px 0;
 		font-size: 20px;
-	}
-	.gallery-top {
-		width: 100%;
 	}
 	figure.effect-bubba figcaption::before, figure.effect-bubba figcaption::after {
 		top: 50px;
